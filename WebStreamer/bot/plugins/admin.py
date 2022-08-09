@@ -33,7 +33,7 @@ async def broadcast_(c, m):
         if not broadcast_ids.get(broadcast_id):
             break
     out = await m.reply_text(
-        text=f"Broadcast initiated! You will be notified with log file when all the users are notified."
+        text=f"Siaran dimulai! Anda akan diberi tahu dengan file log ketika semua pengguna diberi tahu."
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -78,13 +78,13 @@ async def broadcast_(c, m):
     await out.delete()
     if failed == 0:
         await m.reply_text(
-            text=f"broadcast completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
+            text=f"siaran selesai di `{completed_in}`\n\nJumlah pengguna {total_users}.\nTotal selesai {done}, {success} sukses dan {failed} gagal.",
             quote=True
         )
     else:
         await m.reply_document(
             document='broadcast.txt',
-            caption=f"broadcast completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
+            caption=f"siaran selesai di `{completed_in}`\n\nJumlah pengguna {total_users}.\nTotal selesai {done}, {success} sukses dan {failed} gagal.",
             quote=True
         )
     os.remove('broadcast.txt')
