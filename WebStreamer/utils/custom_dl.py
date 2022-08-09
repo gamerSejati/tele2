@@ -22,15 +22,15 @@ class TGCustomYield:
     def __init__(self):
         """ A custom method to stream files from telegram.
         functions:
-            generate_file_properties: returns the properties for a media on a specific message contained in FileId class.
-            generate_media_session: returns the media session for the DC that contains the media file on the message.
-            yield_file: yield a file from telegram servers for streaming.
+            generate_file_properties: mengembalikan properti untuk media pada pesan tertentu yang terkandung dalam kelas FileId.
+            generate_media_session: mengembalikan sesi media untuk DC yang berisi file media pada pesan.
+            yield_file: menghasilkan file dari server telegram untuk streaming.
         """
         self.main_bot = StreamBot
 
     @staticmethod
     async def generate_file_properties(msg: Message):
-        error_message = "This message doesn't contain any downloadable media"
+        error_message = "Pesan ini tidak berisi media yang dapat diunduh"
         available_media = ("audio", "document", "photo", "sticker", "animation", "video", "voice", "video_note")
 
         if isinstance(msg, Message):
