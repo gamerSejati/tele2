@@ -81,8 +81,8 @@ async def private_receive_handler(c: Client, m: Message):
 <i><u>Link ini Permanent !</u></i>\n
 <b>📂 Nama :</b> <i>{}</i>
 <b>📦 Ukuran :</b> <i>{}</i>
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
-<b>🚸 Silahkan klik tombol download dibawah ini. </b>\n
+<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n\n
+<b>🚸 Silahkan klik tombol download dibawah ini. </b>
 <i>© @budy_RangerDark </i>"""
 
         await log_msg.reply_text(text=f"**Permintaan dari :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**User ɪᴅ :** `{m.from_user.id}`\n**Link Dᴏᴡɴʟᴏᴀᴅ :** {stream_link}", disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN, quote=True)
