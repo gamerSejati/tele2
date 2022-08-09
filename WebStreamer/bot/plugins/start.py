@@ -31,8 +31,6 @@ ABOUT_TEXT = """
 <b>⚜ Nama : FileStreamX</b>\n
 <b>🔸Versi : <a href='https://telegram.me/AvishkarPatil'>3.0.1</a></b>\n
 <b>🔹Sᴏᴜʀᴄᴇ : <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>Join Grub dulu</a></b>\n
-# <b>🔸GitHub : <a href='https://GitHub.com/avipatilpro'>Fᴏʟʟᴏᴡ</a></b>\n
-# <b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Avishkarpatil'>Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ</a></b>\n
 <b>🔸Update Versi : <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>[ 26 - ᴊᴜɴᴇ - 2022 ] 03:35 ᴀᴍ</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
@@ -192,8 +190,8 @@ async def start(b, m):
 <i><u>Link ini akan Expired dalam 24jam !</u></i>\n
 <b>📂 Nama :</b> <i>{}</i>
 <b>📦 Ukuran :</b> <i>{}</i>
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
-<b>🚸 Klik Tombol Download dibawah!</b>\n
+<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n\n
+<b>🚸 Klik Tombol Download dibawah!</b>
 <i>🍃 Terima Kasih</i> <b>@budy_RangerDark</b>
 """
 
