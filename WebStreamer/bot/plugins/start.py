@@ -12,7 +12,7 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
 <i>👋 Hallo,</i>{}\n
-<i>Saya Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ s Dɪʀᴇᴄᴛ Lɪɴᴋs Gᴇɴᴇʀᴀᴛᴇ</i>\n
+<i>Saya adalah Bot Telegram yg bisa membuat link download</i>\n
 <i>Klik Tombol Help untuk cara penggunaan</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>
 <b>🔞 kontent porn, User akan dibanned.</b>\n\n
@@ -28,8 +28,8 @@ HELP_TEXT = """
 <i>Hubungi developer jika ada eror.</i> <b>: <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>[ Join Grub ]</a></b>"""
 
 ABOUT_TEXT = """
-<b>⚜ Nama : FileStreamX</b>\n
-<b>🔸Versi : <a href='https://telegram.me/AvishkarPatil'>3.0.1</a></b>\n
+<b>⚜ Nama : filestreamx</b>\n
+<b>🔸Versi : <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>3.0.1</a></b>\n
 <b>🔹Sᴏᴜʀᴄᴇ : <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>Join Grub dulu</a></b>\n
 <b>🔸Update Versi : <a href='https://t.me/+iOmLoJkMhjk0Y2Rl'>[ 26 - ᴊᴜɴᴇ - 2022 ] 03:35 ᴀᴍ</a></b>"""
 
